@@ -1,7 +1,7 @@
 #include <stdio.h>
-const int CITY = 2;
-const int WEEK = 7;
-int mark[2][3];
+const int TOTA_STUDENT = 2;
+const int TOTAL_COLUMN = 4;
+int mark[TOTA_STUDENT][TOTAL_COLUMN];
 int main()
 {
     for (int i = 0; i < CITY; ++i)
